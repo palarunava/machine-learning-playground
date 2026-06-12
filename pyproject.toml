@@ -1,0 +1,23 @@
+[project]
+name = "tensorflow-tutorials"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "importlib-resources>=7.1.0",
+    "matplotlib>=3.10.9",
+    "mlflow>=3.12.0",
+    "numpy>=2.4.6",
+    "seaborn>=0.13.2",
+    "tensorboard>=2.20.0",
+    "tensorflow>=2.21.0",
+    "tensorflow-datasets>=4.9.10",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+    "ipywidgets>=8.1.8",
+    "jupyterlab>=4.5.7",
+]

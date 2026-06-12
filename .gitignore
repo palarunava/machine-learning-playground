@@ -1,0 +1,62 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv
+venv/
+env/
+ENV/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Machine Learning / TensorFlow model files
+*.keras
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.bin
+checkpoints/
+
+# MLflow artifacts and runs
+mlruns/
+.mlflow/
+mlflow.db
+
+# Training logs and artifacts
+*.log
+logs/
+runs/
+*.json.bak
+
+# Data directories
+data/
+datasets/
+scratch/
+*.csv
+*.xlsx
+*.pkl
+*.pickle
+*.png
+training_history.json
+
+# OS-specific files
+.env
+.env.local
